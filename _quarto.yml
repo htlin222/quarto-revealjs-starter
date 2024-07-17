@@ -1,0 +1,26 @@
+echo: false
+date: today
+author:
+  - name: 林協霆
+    affiliation: KFSYSCC
+format:
+  revealjs:
+    theme: [default, styles.scss]
+    number-depth: 1
+    number-sections: true
+    height: 900
+    width: 1600
+    highlight-style: a11y
+    slide-number: true
+    code-line-numbers: false
+    code-copy: hover
+    # logo: https://i.imgur.com/W8Z8w22.png
+    progress: true
+    mouse-wheel: true
+    include-after-body:
+      - "all-the-js-code.html"
+filters:
+  - reveal-auto-agenda
+auto-agenda:
+  bullets: numbered
+  heading: Agenda
