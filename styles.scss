@@ -239,3 +239,72 @@ aside {
   margin-top: -0.5em;
   margin-bottom: -0.5em;
 }
+.reveal .slide-number > a[href*="title-slide"] {
+  display: none;
+}
+
+/* From my previous slides css */
+
+hr {
+  border: 1px dashed $blue;
+  margin-top: 10px;
+  opacity: 0.5;
+  /* margin-left: -50px; */
+  margin-bottom: 10px;
+}
+ul li:hover::marker {
+  transform: scale(1.5);
+  color: #ffb703;
+}
+li {
+  transition: opacity 0.3s ease;
+  transition: transform 0.3s ease;
+}
+li::marker {
+  color: $blue;
+}
+li:hover {
+  /* transform: translateX(-5px); */
+  /* transform: scale(1.05); */
+  transition: transform 0.3s ease;
+  text-decoration: underline;
+  text-decoration-color: #6c9a77;
+  text-decoration-style: solid;
+  text-decoration-thickness: 1px;
+}
+
+kbd {
+  background-color: #eee;
+  border: 0;
+  border-radius: 0.3em;
+  box-shadow:
+    +0.1em +0.125em 0.125em rgba(0, 0, 0, 0.25),
+    0 0 0 0.02em rgba(0, 0, 0, 0.4),
+    0.02em 0.02em 0.02em rgba(0, 0, 0, 0.4) inset,
+    +0.05em +0.05em 0.02em rgba(255, 255, 255, 0.8) inset;
+  color: var(--JAMA-foreground);
+  display: inline-block;
+  padding: 0.2em 0.4em;
+  margin: 0 0.35em;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 1em;
+  cursor: pointer;
+  user-select: none;
+  transition: all 0.2s ease;
+}
+
+kbd:hover {
+  background-color: #eee;
+  border-radius: 0.125em;
+  background-color: #f3f3f3; /* 淺色背景以突出懸停效果 */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* 更大的陰影以增強視覺效果 */
+}
+
+kbd:active {
+  background-color: #e6e6e6; /* 按下時更暗的背景色 */
+  box-shadow:
+    0.1em 0.1em 0.1em rgba(0, 0, 0, 0.2),
+    0 0 0 0.05em rgba(0, 0, 0, 0.4),
+    -0.025em -0.05em 0.025em rgba(255, 255, 255, 0.8) inset; /* 仿照按鈕的按下效果 */
+  transform: translateY(5px); /* 輕微下移以模擬按鍵被按下 */
+}

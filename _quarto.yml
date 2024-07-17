@@ -17,8 +17,8 @@ format:
     # logo: https://i.imgur.com/W8Z8w22.png
     progress: true
     mouse-wheel: true
-    include-after-body:
-      - "all-the-js-code.html"
+    include-after-body: |
+      <script src="assets/custom.js" type="application/javascript"></script>
 filters:
   - reveal-auto-agenda
 auto-agenda:

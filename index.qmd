@@ -17,6 +17,25 @@ When you click the **Render** button a document will be generated that includes:
 
 When you click the **Render** button a presentation will be generated that includes both content and the output of embedded code. You can embed code like this:
 
-```{r}
-1 + 1
-```
+## Quarto and R
+
+:::: {.columns}
+
+::: {.column width='50%'}
+
+### Quarto
+
+- Code in **code chunks**
+- Show output with `{.r}`
+
+:::
+
+::: {.column width='50%'}
+
+### Quarto ^[HiThere]
+
+press <kbd>ctrl</kbd> + <kbd>enter</kbd> to see the result
+
+:::
+
+::::
