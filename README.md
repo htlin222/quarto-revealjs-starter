@@ -1,8 +1,9 @@
-
 # quarto-revealjs-template
 
 <!-- badges: start -->
 <!-- badges: end -->
+
+[EmilHvitfeldt/quarto-revealjs-template: Personal Quarto Revealjs Template](https://github.com/EmilHvitfeldt/quarto-revealjs-template)
 
 The goal of quarto-revealjs-template is to act as my personal starter template for slides. It sets the infrasturcture I end up using quite a lot.
 
@@ -15,6 +16,6 @@ The goal of quarto-revealjs-template is to act as my personal starter template f
 
 To start a new presentation:
 
-``` bash
-quarto use template EmilHvitfeldt/quarto-revealjs-template
+```bash
+quarto use template htlin222/quarto-revealjs-template
 ```
