@@ -1,4 +1,0 @@
-- source: index.qmd
-  netlify:
-    - id: 42a0e259-9ecf-4397-ac3d-9e2e83560c40
-      url: 'https://eclectic-kitten-e8ee2c.netlify.app'
