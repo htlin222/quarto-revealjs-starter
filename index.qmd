@@ -1,40 +1,105 @@
 ---
-title: "基礎練習"
+title: "Quarto Starter"
+subtitle: "A simple starter for Quarto Reveal.js presentations"
+footer: "Quarto Starter"
 ---
 
-# Quart
+::: {.r-fit-text}
+Join the Slido for the live Q&A
+:::
 
-Quarto enables you to weave together content and executable code into a finished presentation. To learn more about Quarto presentations see <https://quarto.org/docs/presentations/>.
+<iframe src="https://wall.sli.do/event/7uhTpmHZyWieFQsfSRefVb?section=c8000d40-906a-4280-b773-7b248f39f358" height="100%" width="100%" frameBorder="0" style="min-height: 560px;"></iframe>
 
-## Bullets
+# Introduction {data-stack-name="Introduction"}
 
-When you click the **Render** button a document will be generated that includes:
-
-- Content authored with markdown
-- Output from executable code
-
-# Code
-
-When you click the **Render** button a presentation will be generated that includes both content and the output of embedded code. You can embed code like this:
-
-## Quarto and R
+## About Me
 
 :::: {.columns}
 
 ::: {.column width='50%'}
 
-### Quarto
+![](https://i.imgur.com/WC1sTsX.jpeg){height=250 .circle_img}
 
-- Code in **code chunks**
-- Show output with `{.r}`
+- 血液腫瘤科專研醫師
+- 任職於和信治癌中心醫院
 
 :::
 
 ::: {.column width='50%'}
 
-### Quarto ^[HiThere]
+![](https://i.imgur.com/ej46pHI.png){height=780}
 
-press <kbd>ctrl</kbd> + <kbd>enter</kbd> to see the result
+:::
+
+::::
+
+---
+
+# Advanced Usage of API {data-stack-name="Advanced Usage"}
+
+## Request
+
+```{.python code-line-numbers="|1,2|4,5|6-9|"}
+from openai import OpenAI
+client = OpenAI()
+
+completion = client.chat.completions.create(
+  model="gpt-4o",
+  messages=[
+    {"role": "system", "content": "You are a helpful assistant."},
+    {"role": "user", "content": "Hello!"}
+  ]
+)
+
+print(completion.choices[0].message)
+```
+
+## Response from a POST request
+
+```{.json code-line-numbers="|11"}
+{
+  "id": "chatcmpl-123",
+  "object": "chat.completion",
+  "created": 1677652288,
+  "model": "gpt-4o-mini",
+  "system_fingerprint": "fp_44709d6fcb",
+  "choices": [{
+    "index": 0,
+    "message": {
+      "role": "assistant",
+      "content": "\n\nHello there, how may I assist you today?",
+    },
+    "logprobs": null,
+    "finish_reason": "stop"
+  }],
+  "usage": {
+    "prompt_tokens": 9,
+    "completion_tokens": 12,
+    "total_tokens": 21
+  }
+}
+```
+
+---
+
+<br>
+<br>
+
+:::: {.columns .v-center-container}
+
+::: {.column width='70%'}
+
+:::{.r-fit-text}
+Thank you for <br>your time and attention
+:::
+
+**Have a nice day!**
+
+:::
+
+::: {.column width='60%' }
+
+![](https://media.tenor.com/Q-OWuADzjMQAAAAC/burp-leo.gif)
 
 :::
 
