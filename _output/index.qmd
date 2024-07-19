@@ -102,17 +102,6 @@ When this fragment is shown, the first line of code will have the `focus` class 
 When this fragment is shown, the first line of code will have the `focus` class added to it
 :::
 
-## What is the capital of France? {.quiz-question}
-
-- London
-- [Paris]{.correct}
-- Berlin
-- Madrid
-
-::: footer
-Click on one of the options then click the check button. If you got it wrong click reset and try again.
-:::
-
 ---
 
 <br>

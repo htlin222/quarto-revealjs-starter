@@ -38,6 +38,7 @@ format:
 filters:
   - reveal-auto-agenda
   - timer
+  - reveal-header
   - code-fullscreen
   - roughnotation
 auto-agenda:
@@ -49,7 +50,6 @@ countdown:
 revealjs-plugins:
   # - spotlight
   # - confetti
-  - quiz
   - simplemenu
   - codefocus
   - webcam
