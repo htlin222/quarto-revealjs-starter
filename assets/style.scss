@@ -284,3 +284,7 @@ video.live-video.circle {
   /* height: 500px; */
   max-height: 800px;
 }
+/* By default, revealjs will display the caption of the image below it. You can hide it by using this stylesheet: */
+.reveal p.caption {
+  display: none;
+}
