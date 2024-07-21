@@ -74,6 +74,10 @@ $code-block-font-size: 1.8rem;
   color: $white;
 }
 
+.footer {
+  display: none !important;
+}
+
 // Title
 
 #title-slide {
@@ -100,6 +104,7 @@ $code-block-font-size: 1.8rem;
 .has-dark-background {
   .footer {
     color: $white;
+    display: block !important;
   }
   .slide-number {
     color: $white !important;
@@ -229,9 +234,10 @@ $code-block-font-size: 1.8rem;
 }
 aside {
   border-top: 1px solid #555555; /* 添加上邊框 */
-  position: absolute;
-  bottom: 0 !important;
+  position: relative;
+  bottom: -60px !important;
   padding: 10px; /* 設置內邊距 */
+  background-color: white;
 }
 .agenda {
   font-size: 2rem;

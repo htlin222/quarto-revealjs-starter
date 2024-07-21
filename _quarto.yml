@@ -32,14 +32,15 @@ format:
       data-state: "hide-menubar"
     menu: true
     simplemenu:
-        barhtml:
-            header: "<div class='menubar'><ul class='menu'></ul><div>"
-        scale: 0.3
+      barhtml:
+        header: "<div class='menubar'><ul class='menu'></ul><div>"
+      scale: 0.3
 filters:
   - reveal-auto-agenda
   - timer
   - code-fullscreen
   - roughnotation
+  - diagram
 auto-agenda:
   bullets: numbered
   heading: "Now we are going to talk about:"

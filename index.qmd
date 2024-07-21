@@ -14,6 +14,22 @@ Join the Slido for the live Q&A
 
 ---
 
+Hello there, how may I assist you today? {{< fa folder >}}
+
+{{< qrcode <https://jmbuhr.de> width="200" height="200" >}}
+
+{{< iconify meteocons clear-day-fill size=5x >}}
+
+``` {.dot}
+//| label: fig-boring
+//| fig-cap: "A boring Graphviz graph."
+digraph boring {
+  A -> B;
+}
+```
+
+---
+
 ## About Me
 
 :::: {.columns}
@@ -132,8 +148,14 @@ Thank you for <br>your time and attention
 
 ::: {.column width='60%' }
 
-![](https://media.tenor.com/Q-OWuADzjMQAAAAC/burp-leo.gif)
+![](https://media.tenor.com/Q-OWuADzjMQAAAAC/burp-leo.gif){.lightbox}
 
 :::
 
 ::::
+
+---
+
+![](https://media.tenor.com/Q-OWuADzjMQAAAAC/burp-leo.gif){height=1000} ^[test]
+
+---
