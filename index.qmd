@@ -8,7 +8,9 @@ footer: "Quarto Starter"
 Join the Slido for the live Q&A
 :::
 
-<iframe src="https://wall.sli.do/event/7uhTpmHZyWieFQsfSRefVb?section=c8000d40-906a-4280-b773-7b248f39f358" height="100%" width="100%" frameBorder="0" style="min-height: 560px;"></iframe>
+> title lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+
+---
 
 # Introduction {data-stack-name="Introduction"}
 

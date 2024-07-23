@@ -101,6 +101,12 @@ $code-block-font-size: 1.8rem;
   }
 }
 
+.reveal blockquote {
+  color: $blue;
+  padding: 0.625rem 1.75rem;
+  border-left: 0.25rem solid $blue;
+}
+
 .has-dark-background {
   .footer {
     color: $white;
