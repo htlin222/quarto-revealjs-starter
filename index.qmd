@@ -2,6 +2,9 @@
 title: "Quarto Starter"
 subtitle: "A simple starter for Quarto Reveal.js presentations"
 footer: "Quarto Starter"
+format:
+  revealjs:
+    logo: https://i.imgur.com/HgCKBM8.png
 ---
 
 ::: {.r-fit-text}
@@ -16,7 +19,7 @@ Join the Slido for the live Q&A
 
 ---
 
-Hello there, how may I assist you today? {{< fa folder >}}
+> Hello there, how may I assist you today? {{< fa folder >}}
 
 {{< qrcode <https://jmbuhr.de> width="200" height="200" >}}
 
